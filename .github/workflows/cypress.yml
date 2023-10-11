@@ -1,7 +1,7 @@
 name: Cypress Tests
 on: [push]
 env:
-  CYPRESS_INTERNAL_ENV: ${{ env.CYPRESS_INTERNAL_ENV }}
+  CYPRESS_INTERNAL_ENV: staging
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
